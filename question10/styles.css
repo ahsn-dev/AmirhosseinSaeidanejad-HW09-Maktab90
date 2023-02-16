@@ -3,9 +3,9 @@
   src: url("./fonts/Vazir-Regular-FD.ttf");
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 body {
   font-family: "Vazir";
@@ -38,4 +38,9 @@ img {
 
 .count-number {
   width: 30px;
+}
+
+.item-cost {
+  font-size: 14px;
+  width: 72px;
 }

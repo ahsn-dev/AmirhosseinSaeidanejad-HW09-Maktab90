@@ -111,8 +111,8 @@ const renderProducts = () => {
                 </div>
               </div>
             </div>
-            <div class="d-flex align-self-end">
-            <span id="itemCost-${index}">۰ تومان</span>
+            <div class="d-flex align-self-end text-start">
+            <span id="itemCost-${index}" class="item-cost">۰ تومان</span>
             </div>
           </div>
         </div>`;
