@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin-top: 80px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.message {
+  width: 500px;
+  padding: 16px;
+  border: none;
+  position: relative;
+  background-color: #ecf5e1;
+}
+
+.message1 {
+  border-bottom: 1px solid #c4df9b;
+}
+
+.message2 {
+  border-top: 1px solid #c4df9b;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  cursor: pointer;
+  color: #8b121a;
+  font-size: 24px;
+}
