@@ -7,7 +7,10 @@
 
 const links = document.querySelectorAll("a");
 for (let link of links) {
-  if (link.href.startsWith("http://") || link.href.startsWith("ftp://")) {
+  if (
+    (link.href.startsWith("http://") || link.href.startsWith("ftp://")) &&
+    !link.href.startsWith("http://internal.com/test")
+  ) {
     link.style.color = "orange";
   }
 }
