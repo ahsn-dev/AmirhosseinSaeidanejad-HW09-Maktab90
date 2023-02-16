@@ -1,0 +1,13 @@
+/*
+● http://google.com
+● /tutorial.html
+● local/path
+● ftp://ftp.com/my.zip
+● http://nodejs.org
+● http://internal.com/test
+*/
+
+a[href^="http://"], a[href^="ftp://"]
+{
+  color: orange;
+}
