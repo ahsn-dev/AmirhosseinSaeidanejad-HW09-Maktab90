@@ -1,3 +1,23 @@
+// a sample tooltip
+// let tooltip = document.createElement('div');
+// tooltip.className = "tooltip";
+// tooltip.innerHTML = "Tooltip";
+
+// the object will track mouse and call over/out
+// new HoverIntent({
+//   elem,
+//   over() {
+//     tooltip.style.left = elem.getBoundingClientRect().left + 'px';
+//     tooltip.style.top = elem.getBoundingClientRect().bottom + 5 + 'px';
+//     document.body.append(tooltip);
+//   },
+//   out() {
+//     tooltip.remove();
+//   }
+// });
+
+////////////////
+
 function createTooltip(element, text) {
   const tooltip = document.createElement("div");
   tooltip.classList.add("tooltip");
