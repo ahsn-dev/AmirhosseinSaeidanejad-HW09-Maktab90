@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("./fonts/Vazir-Regular-FD.ttf");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Vazir";
+}
+
+.first-main-div,
+.second-main-div {
+  background-color: rgb(242, 246, 255);
+}
+
+.first-main-div {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+hr {
+  border: 3px solid #e7ebf7;
+}
+
+img {
+  width: 100px;
+  height: 90px;
+}
+
+.tick {
+  color: white;
+  font-size: 24px;
+  vertical-align: bottom;
+}
+
+.count-number {
+  width: 30px;
+}
