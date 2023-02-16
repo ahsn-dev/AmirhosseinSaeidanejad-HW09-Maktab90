@@ -1,0 +1,18 @@
+#age-table {
+  color: white;
+}
+#age-table label {
+  color: white;
+}
+#age-table td:first-child {
+  color: white;
+}
+form[name="search"] {
+  color: white;
+}
+form[name="search"] input:first-of-type {
+  color: white;
+}
+form[name="search"] input:last-of-type {
+  color: white;
+}
